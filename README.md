@@ -5,9 +5,8 @@ EBMMT includs nine approches (i.e., the OMNI, eHC, eBJ, iHC, GHC, GBJ, MinP, Wal
 
 Please use the following command in R to install the package:
 ```
-install.packages("devtools") 
-library(devtools)
 library(usethis)
+library(devtools)
 install_github("Vivian-Liu-Wei64/EBMMT")
 ```
 ## Usage
@@ -43,11 +42,10 @@ library(EBMMT)  # load the EBMMT package
 # Sigma shpuld be a matrix of the correlations between all the test statistics in the set.
 
 #example 
+
 library(mvtnorm)
 
-Sigma<-matrix(rep(1,9),3,3)  
-        
-diag(Sigma)<-rep(1,3)
+Sigma<-matrix(c(1,-0.08,-0.42,-0.08,1,0.27,-0.42,0.27,1),3,3)  
 
 Z_score<- rmvnorm(1,mean=c(2,2,2),sigma=Sigma) 
 
