@@ -47,15 +47,15 @@ library(mvtnorm)
 
 Sigma<-matrix(c(1,-0.08,-0.42,-0.08,1,0.27,-0.42,0.27,1),3,3)  
 
-Z_score<- rmvnorm(1,mean=c(2,2,2),sigma=Sigma) 
+Z_score<- as.vector(rmvnorm(1,mean=c(1.3,1.3,1.3),sigma=Sigma) )
 
 Eigen_ana(Z_score,Sigma) 
 
 
 -----------The p_values of eHC, eBJ, iHC, GHC, GBJ, MinP, Wald and PCFisher tests-----------
 
-        OMNI_p     eHC_p     eBJ_p     iHC_p     GHC_p    GBJ_p     MinP_p    Wald_p  PCFisher_p
-[1]   0.1000000 0.9876234 0.9971193 0.9103539 1.0000000 0.9971193 0.9103539 1.0000000 0.9981172
+        OMNI_p      eHC_p       eBJ_p       iHC_p       GHC_p      GBJ_p        MinP_p     Wald_p    PCFisher_p
+[1] 0.027059710 0.013585974 0.024266871 0.023478188 0.045186983 0.066075545 0.036742809 0.008783658 0.009267857
 
 ```
 
