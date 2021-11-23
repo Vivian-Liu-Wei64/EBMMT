@@ -60,4 +60,4 @@ Eigen_ana(Z_score,Sigma)
 ```
 
 ## Reference
-Liu, W., Xu, Y., Wang, A., Huang, T.# and Liu, Z.#,  2021. The Eigen Higher Criticism and Eigen Berk-Jones tests for Testing Effects of Multiple Traits based on Summary Statistics (under review)
+Liu, W., Xu, Y., Wang, A., Huang, T.# and Liu, Z.#,  2021. The Eigen Higher Criticism and Eigen Berk-Jones tests for Testing Effects of Multiple Traits based on Summary Statistics (Published)
