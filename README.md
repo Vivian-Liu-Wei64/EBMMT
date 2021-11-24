@@ -1,4 +1,4 @@
-# EBMMT：The Eigen Based Tests for Testing Effects of Multiple Traits based on Summary Statistics
+# EBMMT：The Eigen Higher Criticism and Eigen Berk–Jones Tests for Multiple Trait Association Studies Based on GWAS Summary Statistics
 EBMMT includs nine approches (i.e., the OMNI, eHC, eBJ, iHC, GHC, GBJ, MinP, Wald and PCFisher tests) for detecting the association between a single SNP and multiple traits based on GWAS summary statistics while accounting for the correlation structure among multiple traits.
 
 ## Setup
@@ -63,7 +63,8 @@ Eigen_ana(Z_score,Sigma)
 Liu, W., Xu, Y., Wang, A., Huang, T.# and Liu, Z.#,  2021. The Eigen Higher Criticism and Eigen Berk–Jones Tests for Multiple Trait Association Studies Based on GWAS Summary Statistics. Genetic Epidemiology. https://doi.org/10.1002/gepi.22439
 
 ## Naming collision
-Our proposed eigen higher criticism (eHC) has similar name with the test statistic "eigenHC" in those two papers (Donoho, D. et al., Ke, Z.T.). Note that eHC is fundamentally different from eigenHC.
+Our proposed eigen higher criticism (eHC) has a similar name with the test statistic "eigenHC" in those two papers (Donoho and Jin, 2015; Ke, 2016). Note that eHC is fundamentally different from eigenHC.
 
 *Donoho, D. and Jin, J., 2015. Higher criticism for large-scale inference, especially for rare and weak effects. Statistical Science, 30(1), 1-25.*
+
 *Ke, Z.T., 2016. Detecting rare and weak spikes in large covariance matrices. arXiv preprint arXiv:1609.00883.*
